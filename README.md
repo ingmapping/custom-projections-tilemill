@@ -3,7 +3,7 @@ Generating raster tiles in custom projections with Tilemill!
 
 # Introduction  
 
-This project is part of an internship assignment which aimed at creating tiled basemaps for the KNMI geospatial infrastructure. The data and tools used to create the antarctica basemap are open-source. Therefore, this project is reproducible for everyone who wants to create simple basemaps (raster tiled basemaps) from free vector data! 
+This project is part of an internship assignment which aimed at creating tiled basemaps for the KNMI geospatial infrastructure. The data and tools used to create the basemaps are open-source. Therefore, this project is reproducible for everyone who wants to create simple basemaps (raster tiled basemaps) from free vector data! 
 
 In this project, raster tiles were generated based on the [10m-admin-0-countries dataset](http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip) from [Natural Earth](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/). The custom projections for which experiments were done are:
 * WGS 84 / Antarctic Polar Stereographic - [EPSG:3031](https://epsg.io/3031)
