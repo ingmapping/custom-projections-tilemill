@@ -1,0 +1,135 @@
+List of custom projections used for this custom projections tilemill project
+
+1) WGS 84 / Antarctic Polar Stereographic - EPSG:3031
+
+https://epsg.io/3031
+http://spatialreference.org/ref/epsg/wgs-84-antarctic-polar-stereographic/
+https://nsidc.org/data/atlas/epsg_3031.html
+
+The area of use for this projection is the Antarctica.
+
+Configuration settings for the viewer:
+Proj4js.defs["EPSG:3031"] = "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs";
+OriginX: -3000000
+OriginY: 3000000
+Chosen Map Extent: -3000000, -3000000, 3000000, 30000000 #Based on zoom to antarctica
+Scale: 6000000   
+Resolution: 23437.5  
+
+2) NSIDC Sea Ice Polar Stereographic South - EPSG:3412
+
+https://epsg.io/3412
+http://www.spatialreference.org/ref/epsg/nsidc-sea-ice-polar-stereographic-south/
+https://nsidc.org/data/atlas/epsg_3412.html
+
+The area of use is the Southern hemisphere - south of 60°S onshore and offshore - Antarctica. 
+
+Configuration settings for the viewer:
+Proj4js.defs["EPSG:3412"] = "+proj=stere +lat_0=-90 +lat_ts=-70 +lon_0=0 +k=1 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs";
+OriginX: -3000000
+OriginY: 3000000
+Chosen Map Extent: -3000000, -3000000, 3000000, 30000000 #Based on zoom to antarctica
+Scale: 6000000
+Resolution: 23437.5  
+
+3) WGS 84 / North Pole LAEA Europe - EPSG:3575
+
+https://epsg.io/3575
+http://spatialreference.org/ref/epsg/wgs-84-north-pole-laea-europe/
+https://nsidc.org/data/atlas/epsg_3575.html
+
+The area of use is the Northern hemisphere - north of 45°N, including Arctic.
+
+Configuration settings for the viewer:
+Proj4js.defs["EPSG:3575"] = "+proj=laea +lat_0=90 +lon_0=10 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs";
+OriginX: -5000000
+OriginY: 5000000
+Chosen Map Extent: -5000000, -5000000, 5000000, 50000000 #Based on zoom to sea ice extent (max) 
+Scale: 10000000 
+Resolution: 39062.5  
+
+4) NSIDC Sea Ice Polar Stereographic North - EPSG:3411
+
+https://epsg.io/3411
+http://www.spatialreference.org/ref/epsg/nsidc-sea-ice-polar-stereographic-north/
+https://nsidc.org/data/atlas/epsg_3411.html
+
+The area of use is the Northern hemisphere - north of 60°N onshore and offshore, including Arctic.
+
+Configuration settings for the viewer:
+Proj4js.defs["EPSG:3411"] = "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +k=1 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs";
+OriginX: -12400000
+OriginY: 12400000
+Chosen Map Extent: -12400000, -12400000, 12400000, 12400000 #Based on full extent of the projection 
+Scale: 24800000  
+Resolution: 96875  
+
+5) World Robinson - EPSG54030 or ESRI54030
+
+https://epsg.io/54030
+http://spatialreference.org/ref/esri/world-robinson/
+
+The Robinson projection is a map projection of a world map which shows the entire world at once.
+
+Configuration settings for the viewer:
+Proj4js.defs["EPSG:54030"] = "+proj=robin +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs";
+
+5) WGS 84 / UPS North - EPSG32661
+
+https://epsg.io/32661
+http://spatialreference.org/ref/epsg/wgs-84-ups-north/
+https://nsidc.org/data/atlas/epsg_32661.html
+
+The area of use is the Northern hemisphere - north of 60°N onshore and offshore, including Arctic.
+
+Configuration settings for the viewer:
+Proj4js.defs["EPSG:32661"] = "+proj=stere +lat_0=90 +lat_ts=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +ellps=WGS84 +datum=WGS84 +units=m +no_defs";
+OriginX: -5000000.0
+OriginY: 4000000.0
+Chosen Map Extent: -10668170.426065, -10731829.573935, 14731829.573935, 14668170.426065         
+Scale: 9000000 
+Resolution:58593.75 
+
+6) Amersfoort / RD New - EPSG28992
+
+https://epsg.io/28992
+http://spatialreference.org/ref/epsg/amersfoort-rd-new/ 
+
+The area of use is the Netherlands - onshore, including Waddenzee, Dutch Wadden Islands and 12-mile offshore coastal zone.
+
+Configuration settings for the viewer:
+Proj4js.defs["EPSG:28992"] = "+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs";
+OriginX: -3000000
+OriginY: 3000000
+Chosen Map Extent: -3000000, -3000000, 3000000, 30000000 
+Scale: 6000000 
+Resolution: 23437.5  
+
+7) WGS 84 - EPSG:4326 
+
+https://epsg.io/4326
+http://spatialreference.org/ref/epsg/wgs-84/
+https://nsidc.org/data/atlas/epsg_4326.html
+
+The area of use is the world. 
+
+Configuration settings for the viewer:
+Proj4js.defs["EPSG:4326"] = "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs";
+OriginX: -180
+OriginY: 90
+Chosen Map Extent: -180, -90, 180, 90
+
+
+8) Web Mercator - EPSG:3857
+
+https://epsg.io/3857
+http://spatialreference.org/ref/sr-org/epsg3857-wgs84-web-mercator-auxiliary-sphere/
+
+The area of use is the world. World between 85.06°S and 85.06°N.
+
+Configuration settings for the viewer:
+Proj4js.defs["EPSG:3857"] = "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs";
+OriginX: -180
+OriginY: -85.06
+Chosen Map Extent: -180, -85.06, 180, 85.06
+
