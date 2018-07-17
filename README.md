@@ -5,7 +5,7 @@ Generating raster tiles in custom projections with Tilemill!
 
 This project is part of an internship assignment which aimed at creating tiled basemaps for the KNMI geospatial infrastructure. The data and tools used to create the basemaps are open-source. Therefore, this project is reproducible for everyone who wants to create simple basemaps (raster tiled basemaps) from free vector data! 
 
-In this project, raster tiles were generated based on the [10m-admin-0-countries dataset](http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip) from [Natural Earth](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/). The custom projections for which experiments were done are:
+In this project, raster tiles were generated based on the [10m-admin-0-countries dataset](http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip) from [Natural Earth](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/). For some projections, shapefiles of lakes [lakes](http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-lakes.zip) and [rivers](http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-rivers-lake-centerlines-scale-ranks.zip) from [Natural Earth](https://www.naturalearthdata.com) were taken into account. The custom projections for which experiments were done are:
 * WGS 84 / Antarctic Polar Stereographic - [EPSG:3031](https://epsg.io/3031)
 * NSIDC Sea Ice Polar Stereographic South - [EPSG:3412](https://epsg.io/3412)
 * WGS 84 / North Pole LAEA Europe - [EPSG:3575](https://epsg.io/3575)

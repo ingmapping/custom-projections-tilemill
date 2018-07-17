@@ -11,6 +11,23 @@ Map {
   polygon-fill: #f0f0f0;
 }
 
+#lakes[zoom>=4] {
+  polygon-opacity:1;
+  polygon-fill:#bfd8ff;
+}
+
+#lakes[zoom>=7] {
+  line-color:#abc2e5;
+  line-width:2;
+  polygon-opacity:1;
+  polygon-fill:#bfd8ff;
+}
+
+#rivers[zoom>=8] {
+  line-width:0.5;
+  line-color:#bfd8ff;
+}
+
 /*
 Amersfoort / RD New - EPSG28992
 

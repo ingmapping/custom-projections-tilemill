@@ -39,6 +39,44 @@
       "srs-name": "900913",
       "advanced": {},
       "layerId": "countries"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -165.96561893930925,
+        -50.66962481837749,
+        176.0938293028783,
+        81.95527752537254
+      ],
+      "id": "lakes",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-lakes.zip"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "lakes"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -164.90349121093752,
+        -52.1577450500059,
+        177.21118164062506,
+        75.79347565311913
+      ],
+      "id": "rivers",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-rivers-lake-centerlines-scale-ranks.zip"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rivers"
     }
   ],
   "scale": 1,
