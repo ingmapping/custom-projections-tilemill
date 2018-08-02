@@ -13,7 +13,7 @@ In this project, raster tiles were generated based on the [10m-admin-0-countries
 * World Robinson - [EPSG54030](https://epsg.io/54030)
 * WGS 84 / UPS North - [EPSG32661](https://epsg.io/32661)
 * Amersfoort / RD New - [EPSG28992](https://epsg.io/28992)
-* WGS 84 - [EPSG:4326](https://epsg.io/4326) 
+* WGS 84 - [EPSG:4326](https://epsg.io/4326) [Issue: does actually render tiles in Web Mercator]
 * Web Mercator - [EPSG:3857](https://epsg.io/3857) (actually the default projection for web mapping)
 
 # Tilemill
