@@ -86,7 +86,7 @@ Inside Tilemill you can choose to export the project as MBTiles. Once the export
 How to export your tiles into a directory structure with MButil:
 
 ```
-    git clone https://github.com/mapbox/mbutil
+    git clone https://github.com/ingmapping/mbutil
     cd mbutil
     ./mb-util --image_format=png tiles-28992.mbtiles tiles-28992
 ```
